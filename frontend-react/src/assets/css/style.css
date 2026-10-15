@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+body {
+    background-color: #fff;
+}
+
+.bg-light-dark{
+    background-color: #eceff3;
+}
+
+.login-button {
+    padding: 8px 16px;
+    color: #22c55e;
+    background-color: transparent;
+    border: 1px solid #22c55e;
+    border-radius: 8px;
+    transition: all 0.2s ease;
+}
+
+.login-button:hover {
+    color: white;
+    background-color: #3bab64;
+}
+
